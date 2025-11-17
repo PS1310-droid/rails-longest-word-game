@@ -13,3 +13,48 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  background-color: #F8F9FA; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  border-bottom: 2px solid #EEE;
+  padding-bottom: 10px;
+}
+
+/* This styles the container for the blue boxes */
+.letters {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allows letters to wrap on small screens */
+}
+
+/* This styles each individual blue letter box */
+.letter-box {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px; /* Ensures all boxes have the same width */
+  min-height: 60px; /* Ensures all boxes have the same height */
+}
+
+/* This styles the result card on the score page */
+.card {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
